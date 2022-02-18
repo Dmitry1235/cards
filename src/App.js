@@ -6,7 +6,7 @@ import './App.css';
 
 function App() {
 	const [isFinish, setFinish] = useState(true);
-
+// Возврат размметки для отображения главного экрана приложения
 	return (
 		<div className="App">
 			{isFinish ? (
@@ -21,7 +21,7 @@ function App() {
 }
 
 export default App;
-
+// Функция для возврата слущайного порядка карточек
 const randomArray = () => {
 	const num = ['1', '2', '3', '4', '5', '6', '7', '8', '1', '2', '3', '4', '5', '6', '7', '8'];
 
